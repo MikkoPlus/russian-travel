@@ -1,0 +1,13 @@
+.languages__radio:checked + .languages__label::before {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+
+.languages__radio:checked +.languages__label {
+    opacity: 1;
+}
+
+.languages__radio {
+    display: none;
+}
