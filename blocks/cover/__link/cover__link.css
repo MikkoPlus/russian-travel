@@ -1,0 +1,15 @@
+.cover__link {
+    text-decoration: none;
+    margin: 0 auto;
+    display: block;
+    min-height: 250px;
+    max-width: 560px;
+    position: absolute;
+    top: 240px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.cover__link:hover + .cover__bg-image::after  {
+    background-color: rgba(42,44,47, .8);
+}
