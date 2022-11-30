@@ -1,0 +1,11 @@
+@media (max-width: 350px) {
+    .place__title {
+        font-size: 2em;
+    }
+
+    .lead__subtitle {
+        margin-top: 16px;
+        max-width: 300px;
+        font-size: 1em;
+    }
+}

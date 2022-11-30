@@ -1,0 +1,10 @@
+@media (max-width: 480px) {
+    
+    .lead__caption {
+        padding-left: 16px;
+    }
+
+    .photo-grid {
+        grid-template-columns: 1fr;
+    }
+}

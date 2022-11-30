@@ -1,0 +1,28 @@
+@media (max-width: 565px)  {
+    .header {
+        padding: 16px 0px 20px 0px;
+    }
+
+    .lead {
+        padding-top: 28px;
+    }
+
+    .lead__title {
+        max-width: 400px;
+        font-size: 3em;
+    }
+
+    .lead__subtitle {
+        max-width: 400px;
+        font-size: 1.5em;
+    }
+
+    .intro__title {
+        font-size: 2em;
+    }
+
+    .cover__title {
+        width: 400px;
+        font-size: 3.5em;
+    }
+}
