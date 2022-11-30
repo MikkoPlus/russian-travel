@@ -64,10 +64,3 @@
 @import url('../blocks/media/media-380.css');
 @import url('../blocks/media/media-350.css');
 
-.container {
-    max-width: 1184px;
-    margin: 0 auto;
-    position: relative;
-    overflow: hidden;
-    padding: 0px 48px 0px;
-}
