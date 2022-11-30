@@ -1,6 +1,6 @@
 .cover__bg-image {
     position: relative;
-    background: url('../../../images/cover/cover-bg.png') center center/cover no-repeat;
+    background: url('../../../images/cover/cover-bg.webp') center center/cover no-repeat;
     max-width: 100%;
     min-height: 740px;
     z-index: -1;
