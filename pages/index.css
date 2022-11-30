@@ -44,6 +44,47 @@
 @import url('/blocks/cover/__link/cover__link.css');
 @import url('/blocks/cover/__subtitle/cover__subtitle.css');
 
+@import url('/blocks/footer/footer.css');
+@import url('/blocks/footer/__list/footer__list.css');
+@import url('/blocks/footer/__links-item/footer__links-item.css');
+@import url('/blocks/footer/__link/footer__link.css');
+@import url('/blocks/footer/__copyright/footer__copyright.css');
+
+@media (max-width: 1024px) {
+    .cover {
+        max-width: 1024px;
+    }
+}
+
+@media (max-width: 656px) {
+    .footer {
+        padding: 34px 0 24px 16px;
+        flex-direction: column;
+        justify-content: start;
+        align-items:flex-start
+    }
+
+    .footer__list {
+        flex-direction: column;
+    }
+
+    .footer__links-item {
+        margin-top: 32px;
+    }
+    .footer__links-item:first-of-type {
+        margin: 0;
+    }
+
+    .footer__link {
+        font-size: 2em;
+        line-height: 1;
+    }
+
+    .footer__copyright {
+        margin-top: 48px;
+        line-height: 1;
+    }
+}
 
 
 
