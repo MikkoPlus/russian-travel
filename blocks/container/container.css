@@ -1,0 +1,7 @@
+.container {
+    max-width: 1184px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    padding: 0px 48px 0px;
+}
