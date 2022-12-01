@@ -23,7 +23,7 @@
         padding: 34px 0 24px 16px;
         flex-direction: column;
         justify-content: start;
-        align-items:flex-start
+        align-items:flex-start;
     }
 
     .footer__list {

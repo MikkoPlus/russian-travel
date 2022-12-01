@@ -12,12 +12,9 @@
     .photo-grid {
         padding-top: 58px;
         grid-template-columns: repeat(2, 1fr);
-    }
-
-    .photo-grid {
         object-position: center;
     }
-
+    
 
     .place {
         column-gap: 28px;
