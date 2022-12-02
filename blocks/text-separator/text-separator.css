@@ -1,0 +1,11 @@
+.text-separator {
+    display: block;
+    opacity: 0;
+    height: 26px;
+}
+
+@media (max-width: 768px) {
+    .text-separator {
+        height: 25px;
+    }
+}
