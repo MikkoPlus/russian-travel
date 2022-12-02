@@ -1,0 +1,9 @@
+.languages__item:first-of-type {
+    margin-right: 20px;
+}
+
+@media (max-width: 440px) {
+    .languages__item:first-of-type {
+        margin-right: 18px;
+    }
+}

@@ -1,0 +1,15 @@
+.languages__link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5em;
+    line-height: 1.5;
+    color: #fff;
+    opacity: 1;
+    transition: all .3s ease 0s;
+    text-decoration: none;
+}
+
+.languages__link:hover {
+    opacity: .8;
+}
+
