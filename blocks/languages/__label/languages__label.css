@@ -31,3 +31,8 @@
     opacity: 1;
 }
 
+@media (max-width: 440px) {
+    .languages__label:first-of-type {
+        margin-right: 18px;
+    }
+}

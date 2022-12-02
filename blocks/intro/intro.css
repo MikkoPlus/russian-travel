@@ -4,3 +4,15 @@
     padding: 62px 24px 30px;
     margin: 0 auto;
 }
+
+@media (max-width: 768px) {
+    .intro {
+        padding-top: 58px;
+    }
+}
+
+@media (max-width: 440px) {
+    .intro {
+        padding: 34px 16px 30px;
+    }
+}

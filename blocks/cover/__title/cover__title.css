@@ -1,5 +1,17 @@
-.cover__title {
-    margin: 0 auto;
-    width: 550px;
-    z-index: 5;
+@media (max-width: 768px) {
+    .cover__title {
+        font-size: 4em;
+    }
+}
+
+@media (max-width: 565px)  {
+    .cover__title {
+        font-size: 3.5em;
+    }
+}
+
+@media (max-width: 440px) {
+    .cover__title {
+        font-size: 2em;
+    }
 }

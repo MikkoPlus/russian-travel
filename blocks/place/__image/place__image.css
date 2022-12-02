@@ -4,3 +4,9 @@
     object-fit: contain;
     grid-row: 2/3;
 }
+
+@media (max-width: 585px) {
+    .place__image {
+        width: 100%;
+    }
+}

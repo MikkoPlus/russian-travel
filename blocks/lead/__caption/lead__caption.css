@@ -7,3 +7,15 @@
     text-transform: uppercase;
     color: #FFFFFF;
 }
+
+@media (max-width: 850px) {
+    .lead__caption {
+        padding-left: 24px;
+    }
+} 
+
+@media (max-width: 480px) { 
+    .lead__caption {
+        padding-left: 16px;
+    }
+}

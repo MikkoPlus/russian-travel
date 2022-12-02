@@ -6,3 +6,27 @@
     line-height: 1.6;
     color: #FFFFFF;
 }
+
+@media (max-width: 768px) {
+    .place__paragraph {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 680px) { 
+    .place__paragraph {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 585px) {
+    .place__paragraph {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 440px) {
+    .place__paragraph {
+        padding: 0px 16px;
+    }
+}

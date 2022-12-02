@@ -9,3 +9,21 @@
 .place:first-of-type {
     margin-top: 0;
 }
+
+@media (max-width: 768px) {
+    .place {
+        column-gap: 28px;
+    }
+}
+
+@media (max-width: 585px) {
+    .place {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 32px;
+        margin-top: 0;
+        padding-bottom: 50px;
+    }
+}

@@ -4,3 +4,21 @@
     line-height: 1.1;
     text-align: left;
 }
+
+@media (max-width: 730px) {
+    .intro__title {
+        font-size: 3em;
+    }
+}
+
+@media (max-width: 680px) {
+    .intro__title {
+        font-size: 2.5em;
+    }
+}
+
+@media (max-width: 565px)  {
+    .intro__title {
+        font-size: 2em;
+    }
+}

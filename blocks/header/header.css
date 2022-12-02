@@ -6,3 +6,9 @@
     align-items: flex-end;
     justify-content: space-between;
 }
+
+@media (max-width: 565px)  {
+    .header {
+        padding: 16px 0px 20px 0px;
+    }
+}

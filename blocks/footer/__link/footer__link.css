@@ -10,3 +10,10 @@
 .footer__link:hover {
     opacity: 0.8;
 }
+
+@media (max-width: 680px) { 
+    .footer__link {
+        font-size: 2em;
+        line-height: 1;
+    }
+}

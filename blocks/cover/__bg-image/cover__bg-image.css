@@ -16,3 +16,21 @@
     background-color: rgba(42,44,47, .3);
     transition: all .3s ease 0s;
 }
+
+@media (max-width: 1024px) {
+    .cover__bg-image {
+        min-height: 640px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cover__bg-image {
+        min-height: 480px;
+    }
+}
+
+@media (max-width: 440px) {
+    .cover__bg-image {
+        min-height: 200px;
+    }
+}

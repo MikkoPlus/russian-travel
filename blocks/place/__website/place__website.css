@@ -3,3 +3,15 @@
     align-self: end;
     min-height: 46px;
 }
+
+@media (max-width: 585px) {
+    .place__website {
+        align-self: flex-start;
+    }
+}
+
+@media (max-width: 440px) {
+    .place__website {
+        padding: 0px 16px;
+    }
+}
