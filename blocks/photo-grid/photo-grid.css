@@ -3,11 +3,11 @@
     min-height: 671px;
     padding: 61px 48px 30px;
     margin: 0 auto;
+    list-style: none;
 
     display: grid;
     grid-template-columns:repeat(4, minmax(min-content,1fr));
     grid-template-rows: minmax(213px, max-content);
-    grid-auto-rows: minmax(213px, max-content);
     gap: 16px;
 }
 
@@ -37,7 +37,6 @@
 
 @media (max-width: 380px) {
     .photo-grid {
-        padding: 0 16px;
         padding: 34px 16px 30px;
     }
 }
