@@ -6,6 +6,12 @@
     min-height: 90px;
     list-style: none;
 
-    margin: 33px 0px 0px 0px;
+    margin: 31px 0px 0px 0px;
     padding: 0;
+}
+
+@media (max-width: 565px) {
+   .intro__list { 
+        margin-top: 32px;
+    }
 }

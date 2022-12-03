@@ -5,10 +5,16 @@
     line-height: 1.5;
     color: #fff;
     opacity: 1;
-    transition: all .3s ease 0s;
+    transition: opacity .3s ease 0s;
     text-decoration: none;
 }
 
+@media (max-width: 565px) {
+    .languages__link {
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
 .languages__link:hover {
     opacity: .8;
 }

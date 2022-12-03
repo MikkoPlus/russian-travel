@@ -1,15 +1,29 @@
 .place__link {
     display: block;
-    margin-top: 12px;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 1.5;
+    line-height: 22px;
     text-decoration-line: underline;
     color: #FFFFFF;
     cursor: pointer;
+    opacity: 1;
+    transition: opacity .3s ease 0s;
+    margin-top: 12px;
 }
 
 .place__link:hover {
     opacity: .8;
+}
+
+@media (max-width: 768px) {
+    .place__link {
+        margin-top: 16px;
+    }
+}
+
+@media (max-width: 565px) {
+    .place__link {
+        margin-top: 12px;
+    }
 }
