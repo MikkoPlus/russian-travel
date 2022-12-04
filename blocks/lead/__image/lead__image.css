@@ -2,21 +2,25 @@
     display: block;
     margin: 64px auto 0px;
     width: 100%;
-    min-height: 615px;
+    max-height: 615px;
     object-fit: cover;
 }
 
 @media (max-width: 1024px) {
     .lead__image {
-        max-width: 928px;
-        margin-top: 56px;
-        max-height: 580px;
+        margin-top: 55px;
+        max-height: 581px;
     }
 }
-
+@media (max-width: 768px) {
+    .lead__image {
+        margin-top: 56px;
+        max-height: 480px;
+    }
+}
 @media (max-width: 380px) {
     .lead__image {
-        margin-top: 41px;
+        margin-top: 40px;
         min-height: 200px;
     }
 }

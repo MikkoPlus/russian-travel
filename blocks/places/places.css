@@ -1,24 +1,24 @@
 .places {
     max-width: 984px;
-    padding: 62px 0px 92px 0px;
+    padding: 68px 0px 92px 0px;
     margin: 0 auto;
 }
 
 @media (max-width: 1024px) {
     .places {
-        padding: 62px 48px 92px;
+        padding: 68px 48px 92px;
         column-gap: 32px;
     }
 }
 
 @media (max-width: 768px) {
     .places {
-        padding: 60px 24px 90px;
+        padding: 60px 24px 89px;
     }
 }
 
 @media (max-width: 440px) {
     .places {
-        padding: 29px 0px 69px;
+        padding: 29px 0px 66px;
     }
 }

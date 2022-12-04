@@ -1,11 +1,10 @@
 .languages {
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 0px 0px 1px 0px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding-bottom: 1px;
 }
 
 @media (max-width: 565px) {

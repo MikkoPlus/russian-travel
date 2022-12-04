@@ -9,6 +9,7 @@
 .place:first-of-type {
     margin-top: 0;
 }
+
 @media (max-width: 1024px) {
     .place {
         grid-template-columns: minmax(100px, 440px) minmax(100px, 456px);
@@ -16,10 +17,11 @@
         row-gap: 48px;
     }
 }
+
 @media (max-width: 768px) {
     .place {
         column-gap: 28px;
-        row-gap: 45px;
+        row-gap: 46px;
         grid-template-columns: minmax(100px, 340px) minmax(100px, 352px);
         margin-top: 71px;
     }
@@ -32,6 +34,6 @@
         justify-content: flex-start;
         align-items: flex-start;
         gap: 29px;
-        margin-top: 50px;
+        margin-top: 45px;
     }
 }
