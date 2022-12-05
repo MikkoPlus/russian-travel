@@ -40,11 +40,6 @@
     }
 }
 
-@media (max-width: 565px)  {
-    .cover__link { 
-    }
-}
-
 @media (max-width: 440px) {
     .cover__link {
         min-height: 200px;
